@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <item>
+   <title>La historia de los neones</title>
+   <image>
+   <url> https://cdn.corenexis.com/f/hr6pP4I1oeA.jpg </url>
+   <date> </date>
+   <link></link>
+  </item>
+  <item>
+    <title>XML Tutorial</title>
+    <link>https://www.w3schools.com/xml</link>
+    <description>New XML tutorial on W3Schools</description>
+  </item>
+</channel>
+<copyright> Estos cómics estan licensiados con Creative Commons BY-NC-SA 4.0. </copyright>
+</rss>

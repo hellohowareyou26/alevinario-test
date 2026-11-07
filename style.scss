@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wdth,wght@112.5,700&display=swap');
+@mixin cristalClear {
+backdrop-filter: blur(40px) saturate(300%) ;
+-webkit-backdrop-filter: blur(40px) saturate(300%) ;
+border: 1px solid rgba(255, 255, 255, 1.00) ;
+border-radius: 60px ;
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25) ;
+}
+@mixin flexbox {
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+@mixin flexbox-minimal {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 24px;
+}
+@mixin flexbox-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 8px;
+}
+@mixin cristalClearPeroMejor {
+backdrop-filter: blur(40px) saturate(300%) ;
+-webkit-backdrop-filter: blur(40px) saturate(300%) ;
+border: 1px solid rgba(255, 255, 255, 1.00) ;
+border-radius: 30px ;
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25) ;
+}
+body {
+    background-image: url("https://cdn.corenexis.com/f/wCsxiOG54l8.jpg") ;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    font-family:'Kalnia' , serif;
+    color: white ;
+}
+header {
+@include cristalClear();
+@include flexbox() ;
+}
+article {
+    @include flexbox-minimal() ;
+    @include cristalClearPeroMejor();
+    display: inline-flex; 
+    padding: 5px; 
+}
+nav {
+    @include flexbox() ;
+    @include cristalClear();
+}
+button {
+   border-radius: 60px ;
+   backdrop-filter: blur(40px) saturate(300%) ;
+   color: antiquewhite;
+   background: green;
+    display: flex ;
+    @include cristalClear() ;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+#botones {
+    @include flexbox-button();
+    border-radius: 140px;
+    box-shadow: 32px 32px 84px #003f02,
+             -32px -32px 84px #6fffd8;
+}
+footer {
+     @include flexbox() ;
+     @include cristalClear();
+}   
