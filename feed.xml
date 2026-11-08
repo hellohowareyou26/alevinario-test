@@ -6,14 +6,15 @@
    <title>La historia de los neones</title>
    <image>
    <url> https://cdn.corenexis.com/f/hr6pP4I1oeA.jpg </url>
-   <date> </date>
-   <link></link>
+   </image>
+   <link>https://hellohowareyou26.github.io/alevinario-test/#historia-neones</link>
   </item>
-  <item>
-    <title>XML Tutorial</title>
-    <link>https://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
-  </item>
+ <item>
+ <title> Los feeds RSS </title>
+ <image>
+   <url> https://cdn.corenexis.com/f/hr6pP4I1oeA.jpg </url>
+   </image>
+  </item> 
 </channel>
 <copyright> Estos cómics estan licensiados con Creative Commons BY-NC-SA 4.0. </copyright>
 </rss>
