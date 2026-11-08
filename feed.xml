@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-
 <channel>
   <item>
    <title>La historia de los neones</title>
-   <image>
-   <url> https://cdn.corenexis.com/f/hr6pP4I1oeA.jpg </url>
-   </image>
-   <link>https://hellohowareyou26.github.io/alevinario-test/#historia-neones </link>
+   <enclosure url="https://cdn.corenexis.com/f/hr6pP4I1oeA.jpg" type="image/jpeg"/>
+   <link>https://hellohowareyou26.github.io/alevinario-test/#historia-neones</link>
   </item>
- <item>
- <title> Los feeds RSS </title>
- <image>
-   <url> https://cdn.corenexis.com/f/hr6pP4I1oeA.jpg </url>
-   </image>
-  </item> 
+  <item>
+   <title>Los feeds RSS</title>
+   <enclosure url="https://cdn.corenexis.com/f/hr6pP4I1oeA.jpg" type="image/jpeg"/>
+   <link>https://hellohowareyou26.github.io/#feeds-rss</link>
+  </item>
+  <copyright>Estos cómics estan licensiados con Creative Commons BY-NC-SA 4.0.</copyright>
 </channel>
-<copyright> Estos cómics estan licensiados con Creative Commons BY-NC-SA 4.0. </copyright>
 </rss>
