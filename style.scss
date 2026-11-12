@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wdth,wght@112.5,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wdth,wght@100..125,100..700&display=swap');
 @mixin cristalClear {
 backdrop-filter: blur(40px) saturate(300%) ;
 -webkit-backdrop-filter: blur(40px) saturate(300%) ;
@@ -27,7 +27,7 @@ box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25) ;
   gap: 8px;
 }
 @mixin cristalClearPeroMejor {
-backdrop-filter: blur(40px) saturate(300%) ;
+backdrop-filter: blur(50px) saturate(200%) ;
 -webkit-backdrop-filter: blur(40px) saturate(300%) ;
 border: 1px solid rgba(255, 255, 255, 1.00) ;
 border-radius: 30px ;
@@ -35,14 +35,20 @@ box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25) ;
 }
 body {
     background-image: url("https://cdn.corenexis.com/f/wCsxiOG54l8.jpg") ;
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat;
+    background-size: cover; 
     font-family:'Kalnia' , serif;
     color: white ;
 }
 header {
 @include cristalClear();
 @include flexbox() ;
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 article {
     @include flexbox-minimal() ;
@@ -54,24 +60,16 @@ nav {
     @include flexbox() ;
     @include cristalClear();
 }
-button {
-   border-radius: 60px ;
-   backdrop-filter: blur(40px) saturate(300%) ;
-   color: antiquewhite;
-   background: green;
-    display: flex ;
-    @include cristalClear() ;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 24px;
-}
-#botones {
-    @include flexbox-button();
-    border-radius: 140px;
-    box-shadow: 32px 32px 84px #003f02,
-             -32px -32px 84px #6fffd8;
-}
 footer {
      @include flexbox() ;
      @include cristalClear();
-}   
+}
+
+.kalnia {
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
