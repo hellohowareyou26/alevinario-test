@@ -2,40 +2,50 @@
 <html>
     <head>
      <meta lang="es-ES">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
      <link rel="stylesheet" href="styleCSS.css">
      <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <title>Alevinario</title>
      <meta name="description" content="Cómics sobre cuidar de peces de acuario.">
      <meta name="keywords" content="peces,guppies,gambas,comic,divertido,para niños,kawaii,blog,aquablog de irene,como cuidar peces,rapido,facil,guía,alevinario,">
      <meta name="author" content="Irene">
     </head>
-    <body>
-
-<header>
+<body>
+<header class="container-fluid p-4">
 <h1> Alevinario </h1>
 </header>
-<article>
-    <h2>El pH, kH y gH. </h2>
+
+<article class="p-3">
+    <h5>El pH, kH y gH. </h5>
+        <span class="badge bg-warning" > Nuevo </span>
     <p id="param-peces"> </p>
      <div id="botones-peces">
-    <button type="button" onclick="peces()"> Lee más...</button>
+    <button type="button" onclick="peces()" class="btn btn-outline-info"> Lee más...</button>
     </div>
     </article>
-<article>
-    <h2> Tenemos feed RSS.</h2>
+
+<article class="p-3">
+    <h5> Tenemos feed RSS.</h5>
     <p id="rss-gambitas"> </p>
      <div id="botones-gambas">
-    <button type="button" onclick="gambitas()"> Lee más...</button>
+    <button type="button" onclick="gambitas()" class="btn btn-outline-info"> Lee más...</button>
     </div>
 </article>
-<article>
-    <h2> La historia de los neones.</h2>
+
+<article class="p-3">
+    <h5> La historia de los neones.</h5>
     <p id="historia-neones"> </p>
     <div id="botones">
-    <button type="button" onclick="neones()"> Lee más...</button>
+    <button type="button" onclick="neones()" class="btn btn-outline-info"> Lee más...</button>
     </div>
 </article>
+
+<div class="alert alert-danger" role="alert">
+    <img src="https://img.icons8.com/ios-filled/50/medium-risk.png" alt="Alerta">
+    <h3>Esta web está en beta</h3>
+    <h6>Puede tener errores graves.</h6>
+</div>
 <footer>
       <a href="feed.xml" type="application/rss+xml"> 
         <img src="https://cdn.corenexis.com/f/L7anBxGb.jpg" alt="Feed RSS">
